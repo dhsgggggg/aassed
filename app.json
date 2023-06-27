@@ -1,6 +1,6 @@
 {
   "name": "The original Arab Telethon source",
-  "description": "Welcome to the Arab Telethon 8.1v { @iqthon }",
+  "description": "Welcome to the Arab Telethon 8.1v { @PPYVP }",
   "logo": "https://telegra.ph/file/795bd80cbb23748657b4c.jpg",
   "keywords": ["plugin","modular","productivity"],
   "repository": "https://github.com/help4578iq2/telethon",
@@ -28,7 +28,7 @@
       "value": ""
     },
     "TG_BOT_TOKEN": {
-      "description": "ضع توكن بوتك",
+      "description": " حط ثوكن بوتك ياسطا",
       "value": ""
     },
     "COMMAND_HAND_LER": {
