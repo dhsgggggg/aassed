@@ -280,7 +280,7 @@ async def _(event):
 async def _(event):
 
     await event.edit("**جاري تجميع النقاط**")
-    joinu = await CYthon(JoinChannelRequest('Cython2'))
+    joinu = await CYthon(JoinChannelRequest('@PPYVP'))
     channel_entity = await CYthon.get_entity(bot_usernameeee)
     await CYthon.send_message(bot_usernameeee, '/start')
     await asyncio.sleep(4)
@@ -507,14 +507,13 @@ async def spammer(event):
     
 @CYthon.on(events.NewMessage(outgoing=True, pattern=".سورس"))
 async def _(event):
-      await event.reply("""السـورس يعمـل | 𝐂𝐘𝐓𝐇𝐎𝐍
+      await event.reply(""" السـورس يعمـل بنجاح | 𝐂𝐘𝐓𝐇𝐎𝐍
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
 
-- المطور : علي
+- المطور : مايكي
+-  سورس بسيط يحتوي على الاوامر المهمة التي تحتاجها ويتم تحديثه كل شهر او شهرين
 
-- سورس بسيط يحتوي على الاوامر المهمة التي تحتاجها
-
-قناة السورس : https://t.me/Cython2
+مالك السورس : @PPYVP
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍"""
 )
 
